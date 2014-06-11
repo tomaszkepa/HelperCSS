@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+/* 
+    Document   : helper.css
+    Created on : 2013-03-19, 11:49:43
+    Author     : kempson
+    Description: 
+        css helper
+*/
+
+/*** MARGIN ***/
+
+.margin0    {margin: 0px !important;}
+.margin5    {margin: 5px !important;}
+.margin10   {margin: 10px !important;}
+.margin15   {margin: 15px !important;}
+.margin20   {margin: 20px !important;}
+.margin25   {margin: 25px !important;}
+.margin30   {margin: 30px !important;}
+
+.marginT0   {margin-top: 0px !important;}
+.marginT5   {margin-top: 5px !important;}
+.marginT10  {margin-top: 10px !important;}
+.marginT15  {margin-top: 15px !important;}
+.marginT20  {margin-top: 20px !important;}
+.marginT25  {margin-top: 25px !important;}
+.marginT30  {margin-top: 30px !important;}
+
+.marginR0   {margin-right: 0px !important;}
+.marginR5   {margin-right: 5px !important;}
+.marginR10  {margin-right: 10px !important;}
+.marginR15  {margin-right: 15px !important;}
+.marginR20  {margin-right: 20px !important;}
+.marginR25  {margin-right: 25px !important;}
+.marginR30  {margin-right: 30px !important;}
+
+.marginB0   {margin-bottom: 0px !important;}
+.marginB5   {margin-bottom: 5px !important;}
+.marginB10  {margin-bottom: 10px !important;}
+.marginB15  {margin-bottom: 15px !important;}
+.marginB20  {margin-bottom: 20px !important;}
+.marginB25  {margin-bottom: 25px !important;}
+.marginB30  {margin-bottom: 30px !important;}
+
+.marginL0   {margin-left: 0px !important;}
+.marginL5   {margin-left: 5px !important;}
+.marginL10  {margin-left: 10px !important;}
+.marginL15  {margin-left: 15px !important;}
+.marginL20  {margin-left: 20px !important;}
+.marginL25  {margin-left: 25px !important;}
+.marginL30  {margin-left: 30px !important;}
+
+/*** PADDING ***/
+
+.padding0   {padding: 0px !important;}
+.padding5   {padding: 5px !important;}
+.padding10  {padding: 10px !important;}
+.padding15  {padding: 15px !important;}
+.padding20  {padding: 20px !important;}
+.padding25  {padding: 25px !important;}
+.padding30  {padding: 30px !important;}
+
+.paddingT0  {padding-top: 0px !important;}
+.paddingT5  {padding-top: 5px !important;}
+.paddingT10 {padding-top: 10px !important;}
+.paddingT15 {padding-top: 15px !important;}
+.paddingT20 {padding-top: 20px !important;}
+.paddingT25 {padding-top: 25px !important;}
+.paddingT30 {padding-top: 30px !important;}
+
+.paddingR0  {padding-right: 0px !important;}
+.paddingR5  {padding-right: 5px !important;}
+.paddingR10 {padding-right: 10px !important;}
+.paddingR15 {padding-right: 15px !important;}
+.paddingR20 {padding-right: 20px !important;}
+.paddingR25 {padding-right: 25px !important;}
+.paddingR30 {padding-right: 30px !important;}
+
+.paddingB0  {padding-bottom: 0px !important;}
+.paddingB5  {padding-bottom: 5px !important;}
+.paddingB10 {padding-bottom: 10px !important;}
+.paddingB15 {padding-bottom: 15px !important;}
+.paddingB20 {padding-bottom: 20px !important;}
+.paddingB25 {padding-bottom: 25px !important;}
+.paddingB30 {padding-bottom: 30px !important;}
+
+.paddingL0  {padding-left: 0px !important;}
+.paddingL5  {padding-left: 5px !important;}
+.paddingL10 {padding-left: 10px !important;}
+.paddingL15 {padding-left: 15px !important;}
+.paddingL20 {padding-left: 20px !important;}
+.paddingL25 {padding-left: 25px !important;}
+.paddingL30 {padding-left: 30px !important;}
+
+/*** ALIGN ***/
+
+.aC {text-align: center !important;}
+.aL {text-align: left !important;}
+.aR {text-align: right !important;}
+.aJ {text-align: justify !important;}
+
+/*** FLOAT ***/
+
+.fL {float: left !important;}
+.fR {float: right !important;}
+.fN {float: none;}
+
+/*** RADIUS ***/
+
+.radius5{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.radius8{
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+.radius10{
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+/*** OTHER ***/
+
+.hidden {display:none;}
+.block  {display:block !important;}
+.oH     {overflow: hidden !important;}
+
+.pR     {position: relative !important;}
+.pA     {position: absolute !important;}
+
+.bold   {font-weight: bold;}
