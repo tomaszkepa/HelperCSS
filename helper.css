@@ -1,14 +1,13 @@
-@charset "utf-8";
-
-/* 
+/*
     Document   : helper.css
-    Created on : 2013-03-19, 11:49:43
-    Author     : kempson
-    Description: 
-        css helper
+    Link       : https://github.com/tomaszkepa/HelperCSS
+    Description:
+        A helper system.
 */
 
-/*** MARGIN ***/
+/* ==========================================================================
+   Margin
+   ========================================================================== */
 
 .margin0    {margin: 0px !important;}
 .margin5    {margin: 5px !important;}
@@ -17,6 +16,8 @@
 .margin20   {margin: 20px !important;}
 .margin25   {margin: 25px !important;}
 .margin30   {margin: 30px !important;}
+.margin35   {margin: 35px !important;}
+.margin40   {margin: 40px !important;}
 
 .marginT0   {margin-top: 0px !important;}
 .marginT5   {margin-top: 5px !important;}
@@ -25,6 +26,8 @@
 .marginT20  {margin-top: 20px !important;}
 .marginT25  {margin-top: 25px !important;}
 .marginT30  {margin-top: 30px !important;}
+.marginT35  {margin-top: 35px !important;}
+.marginT40  {margin-top: 40px !important;}
 
 .marginR0   {margin-right: 0px !important;}
 .marginR5   {margin-right: 5px !important;}
@@ -33,6 +36,8 @@
 .marginR20  {margin-right: 20px !important;}
 .marginR25  {margin-right: 25px !important;}
 .marginR30  {margin-right: 30px !important;}
+.marginR35  {margin-right: 35px !important;}
+.marginR40  {margin-right: 40px !important;}
 
 .marginB0   {margin-bottom: 0px !important;}
 .marginB5   {margin-bottom: 5px !important;}
@@ -41,6 +46,8 @@
 .marginB20  {margin-bottom: 20px !important;}
 .marginB25  {margin-bottom: 25px !important;}
 .marginB30  {margin-bottom: 30px !important;}
+.marginB35  {margin-bottom: 35px !important;}
+.marginB40  {margin-bottom: 40px !important;}
 
 .marginL0   {margin-left: 0px !important;}
 .marginL5   {margin-left: 5px !important;}
@@ -49,8 +56,12 @@
 .marginL20  {margin-left: 20px !important;}
 .marginL25  {margin-left: 25px !important;}
 .marginL30  {margin-left: 30px !important;}
+.marginL35  {margin-left: 35px !important;}
+.marginL40  {margin-left: 40px !important;}
 
-/*** PADDING ***/
+/* ==========================================================================
+   Padding
+   ========================================================================== */
 
 .padding0   {padding: 0px !important;}
 .padding5   {padding: 5px !important;}
@@ -59,6 +70,8 @@
 .padding20  {padding: 20px !important;}
 .padding25  {padding: 25px !important;}
 .padding30  {padding: 30px !important;}
+.padding35  {padding: 35px !important;}
+.padding40  {padding: 40px !important;}
 
 .paddingT0  {padding-top: 0px !important;}
 .paddingT5  {padding-top: 5px !important;}
@@ -67,6 +80,8 @@
 .paddingT20 {padding-top: 20px !important;}
 .paddingT25 {padding-top: 25px !important;}
 .paddingT30 {padding-top: 30px !important;}
+.paddingT35 {padding-top: 35px !important;}
+.paddingT40 {padding-top: 40px !important;}
 
 .paddingR0  {padding-right: 0px !important;}
 .paddingR5  {padding-right: 5px !important;}
@@ -75,6 +90,8 @@
 .paddingR20 {padding-right: 20px !important;}
 .paddingR25 {padding-right: 25px !important;}
 .paddingR30 {padding-right: 30px !important;}
+.paddingR35 {padding-right: 35px !important;}
+.paddingR40 {padding-right: 40px !important;}
 
 .paddingB0  {padding-bottom: 0px !important;}
 .paddingB5  {padding-bottom: 5px !important;}
@@ -83,6 +100,8 @@
 .paddingB20 {padding-bottom: 20px !important;}
 .paddingB25 {padding-bottom: 25px !important;}
 .paddingB30 {padding-bottom: 30px !important;}
+.paddingB35 {padding-bottom: 35px !important;}
+.paddingB40 {padding-bottom: 40px !important;}
 
 .paddingL0  {padding-left: 0px !important;}
 .paddingL5  {padding-left: 5px !important;}
@@ -91,47 +110,65 @@
 .paddingL20 {padding-left: 20px !important;}
 .paddingL25 {padding-left: 25px !important;}
 .paddingL30 {padding-left: 30px !important;}
+.paddingL35 {padding-left: 35px !important;}
+.paddingL40 {padding-left: 40px !important;}
 
-/*** ALIGN ***/
+/* ==========================================================================
+   Text align
+   ========================================================================== */
 
 .aC {text-align: center !important;}
 .aL {text-align: left !important;}
 .aR {text-align: right !important;}
 .aJ {text-align: justify !important;}
 
-/*** FLOAT ***/
+/* ==========================================================================
+   Float
+   ========================================================================== */
 
 .fL {float: left !important;}
 .fR {float: right !important;}
-.fN {float: none;}
+.fN {float: none !important;}
 
-/*** RADIUS ***/
+/* ==========================================================================
+   Radius
+   ========================================================================== */
 
-.radius5{
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
+.rad2{
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
 }
 
-.radius8{
+.rad4{
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.rad6{
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+.rad8{
     border-radius: 8px;
     -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
 }
 
-.radius10{
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-}
+/* ==========================================================================
+   Others
+   ========================================================================== */
 
-/*** OTHER ***/
-
-.hidden {display:none;}
+.hidden {display:none !important;}
 .block  {display:block !important;}
+
 .oH     {overflow: hidden !important;}
+.oA     {overflow: auto !important;}
 
 .pR     {position: relative !important;}
 .pA     {position: absolute !important;}
 
-.bold   {font-weight: bold;}
+.bold   {font-weight: 700 !important;}
