@@ -1,8 +1,7 @@
 /*
     Document   : helper.css
     Link       : https://github.com/tomaszkepa/HelperCSS
-    Description:
-        A helper system.
+    Description: CSS helper system.
 */
 
 /* ==========================================================================
@@ -128,31 +127,26 @@
 
 .fL {float: left !important;}
 .fR {float: right !important;}
+.fI {float: inherit !important;}
 .fN {float: none !important;}
 
 /* ==========================================================================
    Radius
    ========================================================================== */
 
-.rad2{
-    border-radius: 2px;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-}
-
-.rad4{
+.r4{
     border-radius: 4px;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
 }
 
-.rad6{
+.r6{
     border-radius: 6px;
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
 }
 
-.rad8{
+.r8{
     border-radius: 8px;
     -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
@@ -162,13 +156,14 @@
    Others
    ========================================================================== */
 
+.bold   {font-weight: 700 !important;}
+
 .hidden {display:none !important;}
 .block  {display:block !important;}
+.block  {display:inline-block !important;}
 
 .oH     {overflow: hidden !important;}
 .oA     {overflow: auto !important;}
 
-.pR     {position: relative !important;}
-.pA     {position: absolute !important;}
-
-.bold   {font-weight: 700 !important;}
+.absolute   {position: absolute !important;}
+.relative   {position: relative !important;}
