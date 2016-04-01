@@ -1,1 +1,2 @@
-HelperCSS - Still in development phase
+css-class-helper
+================
